@@ -27,7 +27,7 @@ function Footer() {
             <div className="f-c-1">
                 <ul className={
                     "f-c-1-list " +(
-                        state ?"active":""
+                        state ?"active":" "
                     )
                 }>
                     <li>
