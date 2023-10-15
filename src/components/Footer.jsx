@@ -27,36 +27,36 @@ function Footer() {
             <div className="f-c-1">
                 <ul className={
                     "f-c-1-list " +(
-                        state ?"active":" "
+                        state ?"hidden":" "
                     )
                 }>
                     <li>
-                    <NavLink to="destination">
+                    <NavLink to="/destination">
                        destination
                     </NavLink>  
                     </li>
                 <li>
-                <NavLink to="packages">
+                <NavLink to="/packages">
                     packages
                     </NavLink>
                     </li>
                 <li>
-                <NavLink to="tours">
+                <NavLink to="/tours">
                     tours
                     </NavLink>
                 </li>
                 <li>
-                <NavLink to="promotions">
+                <NavLink to="/promotions">
                     promotions
                     </NavLink>
                     </li>
                 <li>
-                <NavLink to="gallery">
+                <NavLink to="/gallery">
                     gallery
                     </NavLink>
                     </li>
                 <li>
-                <NavLink to="contact">
+                <NavLink to="/contact">
                     contact
                     </NavLink>
                     </li>

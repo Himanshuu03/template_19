@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import {FaBars} from 'react-icons/fa'
 import {RxCross2} from 'react-icons/rx'
-import { NavLink, useNavigate } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 function Header() {
     const [state,setState] = useState(false);
     const navigate = useNavigate();
     function getStarted(){
-        navigate("login");
+        console.log("Helo");
+        navigate("/login");
     }
   return (
     <div className='main-header'>
@@ -15,9 +16,9 @@ function Header() {
         </div>
         <div className='navbar'>
             <h1>
-                <NavLink to="/">
+                <Link to="/">
                 Wedding
-                </NavLink>
+                </Link>
                 </h1>
             <div className='navbar-icons' onClick={()=>{
                 setState(!state);
@@ -31,7 +32,7 @@ function Header() {
                 }
             </div>
             <ul className={
-                "navbar-ul "+ (state ? "active":"")
+                "navbar-ul "+ (state ? "hidden":"")
             }>
                 <li className='header-list'>
                     <NavLink to="/destination">

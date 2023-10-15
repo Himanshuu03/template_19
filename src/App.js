@@ -9,7 +9,6 @@ import Promotions from './Pages/Promotions'
 import Gallery from './Pages/Gallery'
 import Contact from './Pages/Contact'
 import Login from './Pages/Login'
-import Signup from './Pages/Signup'
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
         <Route path='/gallery' element={<Gallery/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/signup' element={<Signup/>}/>
       </Routes>
     </div>
   )
