@@ -16,14 +16,14 @@ function App() {
     <div>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='destination' element={<Destination/>}/>
-        <Route path='packages' element={<Packages/>}/>
-        <Route path='tours' element={<Tours/>}/>
-        <Route path='promotions' element={<Promotions/>}/>
-        <Route path='gallery' element={<Gallery/>}/>
-        <Route path='contact' element={<Contact/>}/>
-        <Route path='login' element={<Login/>}/>
-        <Route path='signup' element={<Signup/>}/>
+        <Route path='/destination' element={<Destination/>}/>
+        <Route path='/packages' element={<Packages/>}/>
+        <Route path='/tours' element={<Tours/>}/>
+        <Route path='/promotions' element={<Promotions/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
       </Routes>
     </div>
   )

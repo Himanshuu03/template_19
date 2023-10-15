@@ -14,7 +14,11 @@ function Header() {
             <img src={require('../images/1.11.png')} alt='ph'/>
         </div>
         <div className='navbar'>
-            <h1>Wedding</h1>
+            <h1>
+                <NavLink to="/">
+                Wedding
+                </NavLink>
+                </h1>
             <div className='navbar-icons' onClick={()=>{
                 setState(!state);
             }}>
@@ -30,32 +34,32 @@ function Header() {
                 "navbar-ul "+ (state ? "active":"")
             }>
                 <li className='header-list'>
-                    <NavLink to="destination">
+                    <NavLink to="/destination">
                        destination
                     </NavLink>  
                     </li>
                 <li className='header-list'>
-                <NavLink to="packages">
+                <NavLink to="/packages">
                     packages
                     </NavLink>
                     </li>
                 <li className='header-list'>
-                <NavLink to="tours">
+                <NavLink to="/tours">
                     tours
                     </NavLink>
                 </li>
                 <li className='header-list'>
-                <NavLink to="promotions">
+                <NavLink to="/promotions">
                     promotions
                     </NavLink>
                     </li>
                 <li className='header-list'>
-                <NavLink to="gallery">
+                <NavLink to="/gallery">
                     gallery
                     </NavLink>
                     </li>
                 <li className='header-list'>
-                <NavLink to="contact">
+                <NavLink to="/contact">
                     contact
                     </NavLink>
                     </li>
