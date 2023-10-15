@@ -6,7 +6,7 @@ function Gallery() {
   return (
     <div>
       <Header/>
-      <div className='gallery-cotainer'>
+      <div class='gallery-cotainer'>
 
     <header class="gallery-header">
         <h1 class="gallery-title">Capture the Moments of Love</h1>

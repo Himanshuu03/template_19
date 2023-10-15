@@ -1393,3 +1393,88 @@ a{
     padding: 5px;
   }
 }
+
+
+.contact-header {
+  text-align: center;
+  color: #30302f;
+}
+
+.contact-title {
+  font-size: 36px;
+  color:#333;
+}
+
+.contact-form {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-form-inner {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: inline-block;
+  width: 80%;
+  max-width: 600px;
+}
+
+.form-group {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.form-control {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea.form-control {
+  height: 150px;
+  width: 94%;
+}
+
+.submit-button {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #333;
+}
+
+.contact-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact-us-container{
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form-inner {
+      width: 100%;
+      padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form-inner {
+      width: 100%;
+      padding: 10px;
+  }
+}
